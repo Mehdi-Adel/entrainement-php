@@ -1,55 +1,64 @@
+body {
+    background-color: #79b7f9;
+}
+
 .titreBleu {
-    color:blue;
+    color: blue;
 }
 .titreRouge {
-    color:red;
+    color: red;
 }
 
-.backgroundColorRed{
-    background-color:red;
+.backgroundColorRed {
+    background-color: red;
 }
-.backgroundColorBlue{
-    background-color:blue;
-    color:white;
-    border : 2px solid black;
-    padding: 20px 5px 10px 15px;
-}
-
-.backgroundColorGreen{
-    background-color:green;
-    color:white;
-    border : 2px solid black;
-    padding: 20px 5px 10px 15px;
-}
-
-.resultat{
-    padding:10px;
-    margin-top:10px;
+.backgroundColorBlue {
+    background-color: blue;
+    color: white;
     border: 2px solid black;
-    background-color:rgb(89, 235, 89);
+    padding: 20px 5px 10px 15px;
+}
+
+.backgroundColorGreen {
+    background-color: green;
+    color: white;
+    border: 2px solid black;
+    padding: 20px 5px 10px 15px;
+}
+
+.resultat {
+    padding: 10px;
+    margin-top: 10px;
+    border: 2px solid black;
+    background-color: rgb(89, 235, 89);
 }
 
 ul {
     list-style-type: none;
-    margin:0;
-    padding:0;
-    background-color:#283645;
-    overflow:hidden;
+    margin: 0;
+    padding: 0;
+    background-color: #283645;
+    overflow: hidden;
 }
 li {
-    float:left;
+    float: left;
 }
 li a {
-    color:white;
-    padding:20px;
+    color: white;
+    padding: 20px;
     text-decoration: none;
-    display:block;
+    display: block;
 }
 
-li a:hover{
-    background-color:#1490D7;
+li a:hover {
+    background-color: #1490d7;
 }
 
 h1 {
-    color : #1490D7;
+    color: white;
+}
+
+.character-poster {
+    display: block;
+    margin: 5em auto 0 auto;
 }
